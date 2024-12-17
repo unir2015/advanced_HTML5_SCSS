@@ -115,6 +115,10 @@ body {
   line-height: 17px;
 }
 
+.menu__none {
+  display: none;
+}
+
 .head {
   display: flex;
   align-items: center;
@@ -727,5 +731,14 @@ body {
   }
   .footer__nav {
     justify-content: space-around;
+  }
+  .menu__none {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .menu__none-basket {
+    background-color: #F16D7F;
+    border: 1px solid #F16D7F;
   }
 }/*# sourceMappingURL=style2.css.map */

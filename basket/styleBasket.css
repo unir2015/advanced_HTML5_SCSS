@@ -77,6 +77,10 @@ body {
   transition: right 0.9s;
 }
 
+.menu__none {
+  display: none;
+}
+
 .menu-heading {
   padding-left: 24px;
   padding-top: 32px;
@@ -588,5 +592,14 @@ body {
   }
   .footer__nav {
     justify-content: space-around;
+  }
+  .menu__none {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .menu__none-basket {
+    background-color: #F16D7F;
+    border: 1px solid #F16D7F;
   }
 }/*# sourceMappingURL=styleBasket.css.map */

@@ -411,7 +411,9 @@ font-weight: 400;
   }
   
 }
-
+.menu__none{
+  display: none;
+}
 
 
 
@@ -534,7 +536,16 @@ font-weight: 300;
   justify-content: space-around;
 }
 
+.menu__none{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 
+}
+.menu__none-basket{
+  background-color: #F16D7F;
+  border: 1px solid #F16D7F;
+}
 
 }
 
